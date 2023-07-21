@@ -39,14 +39,13 @@ body{
     height: auto;
 }
 .logo{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .title{
     color: var(--Gray);
     font-weight: 300;
     margin-bottom: 2rem;
-    font-size: 20px
-;
+    font-size: 20px;
 }
 
 .soon{
@@ -99,7 +98,52 @@ justify-content: space-evenly;
     border-radius: 50%;
     border: 1px solid var(--Pale-Blue); 
     overflow: hidden;
+    fill: var(--Blue);
 }
 .copyright{
     font-size: .5rem;
+}
+
+@media screen and (min-width:768px) {
+.container {
+    height: 100vh;
+    margin-top: 3rem;
+    }
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.paragraph {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+form {
+        display: flex;
+        flex-direction: row;
+        max-width: 42rem;
+        margin-bottom: 2.7rem;
+}
+.form-input{
+      width: 30rem;
+      padding:1rem;
+    
+}  
+.button{
+width: 37%;
+border-radius: 2rem;
+padding: 1.3rem;
+
+}
+.hero-image{
+    width: 40rem;
+    height: auto;
+}
+.icons{
+width: 10rem;
+justify-content: space-evenly;
+}
+
+.copyright{
+    font-size: .75rem;
+}
 }
